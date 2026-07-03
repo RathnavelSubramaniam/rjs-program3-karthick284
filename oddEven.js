@@ -7,8 +7,8 @@
 // checkOddEven(5) ? "Odd"
 
 const checkOddEven = (num) => {
-    // Write your code here
-
+    return(number % 2 === 0)?"even":"odd";
 };
+let number =7;
+console.log(number + " is "+checkOddEven(number)));
 
-module.exports = checkOddEven;
